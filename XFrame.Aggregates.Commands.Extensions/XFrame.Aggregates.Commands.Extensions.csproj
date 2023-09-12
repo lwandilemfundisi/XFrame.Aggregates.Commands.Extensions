@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
 	  <PackageId>XFrame.Aggregates.Commands.Extensions</PackageId>
-	  <Version>7.0.0</Version>
+	  <Version>7.0.1</Version>
 	  <Authors>Lwandile Mfundisi</Authors>
 	  <Description>XFrame.Aggregates.Commands.Extensions houses concept of commands extensions</Description>
 	  <IsPackable>true</IsPackable>
@@ -19,7 +19,7 @@
 	</Target>
 
 	<ItemGroup>
-	  <PackageReference Include="XFrame.Aggregates.Commands" Version="7.0.0" />
+	  <PackageReference Include="XFrame.Aggregates.Commands" Version="7.0.1" />
 	  <PackageReference Include="XFrame.DomainContainers" Version="7.0.0" />
 	</ItemGroup>
 
